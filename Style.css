@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+
+}
+/* nav */
+nav{ 
+  font-size: 18px;
+  font-weight: bolder;   
+}
+.logo{
+  line-height: 50px;
+  padding: 0 80px;
+  font-weight: bold;
+}
+/* nav */
+/* tram starts */
+.Tlink ul{
+  list-style: none;
+  padding: 5px; 
+}
+/* tram ends */
+
+/* gallary starts */
+.hr{
+  border: 2px solid red;
+  width: 60px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.box{
+  margin-bottom: 30px;
+}
+.box1{
+  padding-left:0;
+}
+.box2{
+  padding-left: 50px;
+}
+.bt{
+  padding-right: 100px;
+}
+/* gallary ends */
+.color{
+    color: #1dc8cd;
+}
+.bg-clr{
+    background-color: #28FFBF;
+    color: white;
+}
+.bg-clr2{
+  background-color: #F4F9F9 ;
+}
+.b-clr{
+  border: 2px solid #28FFBF;
+}
+.i ul {
+    list-style: none;
+}
+.sp{
+      line-height: 0;
+      padding-left: 15px;  
+}
+.text{
+  padding-top: 8%;
+  color: white;
+}
+.sp2{
+      padding-left: 40px;
+}
+  /*footer starts*/
+.link a{
+    font-size: 12px;
+    text-decoration: none;
+    border: 1px solid #28FFBF;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 4px;
+  }
+.link a:hover{
+    color: white;
+    background-color: #1dc8cd;
+}
+.link2 a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 8px;
+    color: black;
+}
+.bg{
+  overflow: hidden;
+  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(Images/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+}
+.bgi{
+	height: calc(100vh);
+  
+	width: 100%;
+	background-image: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url("Images/hero-bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
