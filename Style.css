@@ -9,6 +9,7 @@
 nav{ 
   font-size: 18px;
   font-weight: bolder;   
+  background: linear-gradient(45deg, #1de099, #1dc8cd);;
 }
 .logo{
   line-height: 50px;
